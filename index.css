@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+}
+
+/*                            HEADER           */
+
+.cover {
+  background: url(' https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: table;
+}
+
+.textbox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tagline {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.tagline p {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  padding: 1.25rem;
+}
+
+.headline p:before {
+  content: "";
+  display: block;
+  height: .1rem;
+  width: 30vw;
+  margin: 1rem auto;
+  background-color: white;
+}
+
+.headline p {
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  font-size: 4rem;
+  padding: 1.25rem;
+}
+
+.date p {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  padding: 1.25rem;
+}
+
+
+
+/*                        --- CONTENT ---    */
+
+
+.picture-size {
+  height: 7rem;
+  padding: 0.5rem;
+}
+
+.content {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+  min-height: calc(100vh-50px);
+}
+
+/*                     SECTION 1     LOCATION  */
+
+.locations {
+  position: relative;
+  width: 100vw;
+  text-align: center;
+}
+
+.locations h1 {
+  font-family: 'Great Vibes', serif;
+  color: #444349;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.locations h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: #444349;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.locations p {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.05rem;
+  text-align: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.ceremony, .photos, .party {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+}
+
+.ceremony::after, .photos::after, .party::after {
+  content: "";
+  display: block;
+  height: .2rem;
+  width: 30vw;
+  margin: 1rem auto;
+  background-color: grey;
+}
+
+/*                      SECTION 2    PROGRAM  */
+
+.programs {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.programs h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1.1rem;
+}
+
+.programs p {
+  font-family: 'Muli', sans-serif;;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+.times ul {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.05rem;
+  padding: 1rem;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+
+/*                      SECTION 3     GIFTS    */
+
+.gifts {
+  padding: rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+}
+
+.gifts h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #444349;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.gifts p {
+  font-family: 'Muli', sans-serif;;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+/*                      SECTION 4    QUESTIONS  */
+
+.main-questions {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  padding: rem;
+  line-height: 1.25rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.travel, .food, .others {
+  height: 30%;
+  margin-left: 1rem;
+}
+
+.travel::after, .food::after, .others::after {
+  content: "";
+  display: block;
+  height: .2rem;
+  width: 30vw;
+  margin: 1rem auto;
+  background-color: #d2ba87;
+}
+.main-questions h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.travel h3, .food h3, .others h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.travel h4, .food h4, .others h4 {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.travel p, .food p, .others p {
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.food a, .others a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+.food a:hover, .others a:hover {
+  color: #eda087;
+}
+
+/*                       SECTION 4    CONTACT    */
+
+.last {
+  position: relative;
+  padding: 2rem;
+  margin-top: rem;
+  margin-bottom: 50px;
+  width: 95%;
+}
+
+.last h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #444349;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.last p {
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.last a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+.last a:hover {
+   color: #eda087;
+}
+
+/*                           MAIN FOOTER       */
+
+footer {
+  height: 20vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer-wrapper {
+  background-color: #606060;
+  position: absolute;
+  padding: 3.5rem;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 10px;
+  text-align: center;
+}
+
+.footer-wrapper a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+.footer-wrapper a:hover {
+  color: #eda087;
+}
+
+/*         MAIN HEADER STYLES         */
+
+
+
+@media (min-width: 768px) {
+
+  .tagline {
+    width: 30rem;
+  }
+
+  .ceremony, .photos, .party, {
+    display: inline-block;
+    width: 30%;
+    float: left;
+  }
+
+  .travel, .food, .others {
+    width: 30%;
+    float: left;
+  }
+
+ .ceremony::after, .photos::after, .party::after {
+      display: none;
+  }
+
+  .travel::after, .food::after, .others::after {
+    display: none;
+  }
+
+  .main-questions::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
